@@ -84,5 +84,14 @@ public class Main {
             total = total + sun;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
         }
+
+        // task 10
+        System.out.println("Задача 10");
+
+        int nomber = 2;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(nomber + "*" + i + "=" + (nomber * i));
+        }
     }
 }
